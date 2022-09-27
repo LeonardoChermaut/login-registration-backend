@@ -1,6 +1,6 @@
 # login-registration-backend
 
-Login com registro backend using Spring Boot.
+Login with auth backend using Spring Boot.
 
 - [x] Spring Boot
 - [x] Spring Security
