@@ -1,5 +1,6 @@
 package com.java.authenticator.registration.controller;
 
+import com.java.authenticator.registration.resquest.RegistrationRequest;
 import com.java.authenticator.registration.service.RegistrationService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +16,7 @@ public class RegistrationController {
     private RegistrationService registrationService;
 
     @PostMapping
-    public String register(@RequestBody RegistrationService request){
+    public String register(@RequestBody RegistrationRequest request){
         return registrationService.register(request);
     }
 }
