@@ -18,7 +18,7 @@ import java.util.Collections;
 @EqualsAndHashCode
 @NoArgsConstructor
 @Entity
-public class User implements UserDetails {
+public class AppUser implements UserDetails {
 
 
     @SequenceGenerator(
@@ -41,11 +41,11 @@ public class User implements UserDetails {
     private Boolean locked = false;
     private Boolean enabled = false;
 
-    public User(String firstName,
-                String lastName,
-                String email,
-                String password,
-                UserRole userRole) {
+    public AppUser(String firstName,
+                   String lastName,
+                   String email,
+                   String password,
+                   UserRole userRole) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

@@ -1,4 +1,4 @@
-package com.java.authenticator.config;
+package com.java.authenticator.security;
 
 import com.java.authenticator.service.UserService;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.java.authenticator.registration.resquest;
+package com.java.authenticator.registration;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
